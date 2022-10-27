@@ -7,5 +7,5 @@ export const Notification = styled.p`
 `;
 
 Notification.propTypes = {
-  children: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
 };
