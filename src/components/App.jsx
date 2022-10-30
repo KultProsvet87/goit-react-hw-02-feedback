@@ -16,7 +16,6 @@ export class App extends Component {
   };
 
   onLeaveFeedback = feedBackType => {
-    console.log(this.state);
     this.setState(prev => {
       return {
         [feedBackType]: prev[feedBackType] + 1,
